@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package t3ej30;
+
 import java.util.Scanner;
 
 /**
@@ -16,42 +17,39 @@ public class T3EJ30 {
      */
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-                int aleatorio = (int)((Math.random())*100+1);
-        int numero;
+        int aleatorio = (int) ((Math.random()) * 100 + 1);
+        int numero = 0; // Si no la definimos da problemas luego
         int intentos = 0;
-        
-        do{
-            System.out.println("Escribe el numero que crees que es");
-            numero = entrada.nextInt();            
-            
-            if (aleatorio < numero){System.out.println("El numero es menor");}
-            if (aleatorio > numero){System.out.println("El numero es mayor");}
-            if (aleatorio == numero) {System.out.println("Enhorabuena acertaste");}
-            
-            try{
-                numero = char;
-                
-                
-                
+        boolean acertado = false;
+
+        while (!acertado) {
+            System.out.println("Escribe el numero que crees:");
+            try {
+                numero = entrada.nextInt();
+                intentos++;
+
+                if (numero < aleatorio) {
+                    System.out.println("El numero es mayor");
+                } else {
+                    System.out.println("El numero es menor");
+                }
+
+                if (numero == aleatorio) {
+                    System.out.println("Enhorabuena acertaste!!!");
+                    System.out.println("El numero era: " + aleatorio);
+                    System.out.println("El numero de intentos fue: " + intentos);
+                }
+            } catch (Exception e) {
+                //Se produjo un error (introdujo una letra)
+                System.err.println("Error debes escribir un numero");
+                intentos++;
+                entrada.nextLine(); //limpiar el buffer para que no de error
             }
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            intentos++;
-            
-            }while (numero != aleatorio);
-        System.out.println("El numero de intentos han sido: " + intentos);
-        
-        
-        
-        // TODO code application logic here
+        }
+
+
     }
-    
 }
+
+// TODO code application logic here
+
