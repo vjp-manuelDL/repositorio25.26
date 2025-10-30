@@ -1,4 +1,4 @@
-package t4ej12;
+package T4EJ12;
 import java.util.Scanner;
 
 /**
@@ -37,7 +37,7 @@ public class T4EJ12 {
         boolean acceso = false;
         while ( intentos < 3 && !acceso){
             int contra = T4EJ12.pedirContra();
-            acceso = t4ej12.comproBar(contra);
+            acceso = T4EJ12.comproBar(contra);
             intentos++;
         }
         // TODO code application logic here
