@@ -54,7 +54,7 @@ public class Bicicleta {
     //Otros metodos
     public void mostrarAntiguedad() {
         if (antiguedad > 10) {
-            System.out.println(" La bisi es antigua");
+            System.out.println(" La bici es antigua");
         } else {
             System.out.println(" La bici es nueva ");
         }
