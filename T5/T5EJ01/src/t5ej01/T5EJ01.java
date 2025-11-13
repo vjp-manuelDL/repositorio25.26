@@ -14,24 +14,48 @@ public class T5EJ01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Coche coche1 = new Coche();
-        coche1.setMarca("BMW");
-        coche1.setmModelo("X3");
-        coche1.setColor("Azul");
-        coche1.setVelocidad(300);
-        coche1.encenderMotor();
-        coche1.mostrarCoche();
-        
+        Coche miCoche = new Coche();
+        Coche cochePadre = new Coche();
+        //defino micoche y cochepadre
 
-        Coche coche2 = new Coche();
-        coche2.setMarca("BMW");
-        coche2.setmModelo("Serie 8");
-        coche2.setColor("Rojo");
-        coche2.setVelocidad(350);
-        coche2.encenderMotor();
-        coche2.mostrarCoche();
+        miCoche.setmModelo("Serie X");
+        miCoche.setMarca("BMW");
+        miCoche.setColor("Azul");
+
+        cochePadre.setmModelo("Skyline  ");
+        cochePadre.setMarca("Nissan");
+        cochePadre.setColor("Rojo");
+
+        //arranco
+        miCoche.arrancarCoche();
+        miCoche.obtenerEstado();
+        cochePadre.arrancarCoche();
+        cochePadre.obtenerEstado();
+
+        //acelero micoche
+        miCoche.acelerarCoche();
+        miCoche.acelerarCoche();
+        miCoche.acelerarCoche();
+        miCoche.acelerarCoche();
+        miCoche.acelerarCoche();
+        miCoche.obtenerEstado();
+
+        //Freno mi coche
+        miCoche.frenarCoche();
+        miCoche.frenarCoche();
+        miCoche.obtenerEstado();
+
+        //acelero cocheapadre
+        cochePadre.acelerarCoche();
+        cochePadre.acelerarCoche();
+        cochePadre.acelerarCoche();
         
+        //apago cochepadre
+        cochePadre.apagarCoche();
         
+        //obtengo estado
+        miCoche.obtenerEstado();
+        cochePadre.obtenerEstado();
 
         // TODO code application logic here
     }
