@@ -11,7 +11,7 @@ package t5ej24;
 public class ProductoFresco extends Producto {
     private String fechaEnvasado;
     private String paisOrigen;
-
+    //creo la clase producto fresco y es el "hijo" de producto
     public ProductoFresco(String fechaCaducidad, String numeroLote, String fechaEnvasado, String paisOrigen) {
         super(fechaCaducidad, numeroLote);
         this.fechaEnvasado = fechaEnvasado;

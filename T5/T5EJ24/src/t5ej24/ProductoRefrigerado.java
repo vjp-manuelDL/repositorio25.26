@@ -9,7 +9,9 @@ package t5ej24;
  * @author Admin
  */
 public class ProductoRefrigerado extends Producto {
+
     private String codigoOrganismo;
+    //creo la clase producto refrigerado y es el "hijo" de producto
 
     public ProductoRefrigerado(String fechaCaducidad, String numeroLote, String codigoOrganismo) {
         super(fechaCaducidad, numeroLote);

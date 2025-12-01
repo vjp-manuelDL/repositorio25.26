@@ -9,8 +9,10 @@ package t5ej24;
  * @author Admin
  */
 public class Producto {
-     protected String fechaCaducidad;
+
+    protected String fechaCaducidad;
     protected String numeroLote;
+    //creo la clase producto 
 
     public Producto(String fechaCaducidad, String numeroLote) {
         this.fechaCaducidad = fechaCaducidad;
@@ -38,5 +40,5 @@ public class Producto {
         System.out.println("Fecha de caducidad: " + fechaCaducidad);
         System.out.println("Número de lote: " + numeroLote);
     }
-    
+
 }

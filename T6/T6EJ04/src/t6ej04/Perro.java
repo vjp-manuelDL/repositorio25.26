@@ -9,22 +9,28 @@ package t6ej04;
  * @author Admin
  */
 public class Perro extends Canido {
+      //creo la especie perro dentro de su especie "canido"
     public Perro(String nombre, int edad, double peso) {
         super(nombre, edad, peso);
     }
 
+    @Override
     public String getSonido() {
         return "Ladrido";
     }
 
+    
+    @Override
     public String getAlimentacion() {
-        return "Carnívora";
+        return "Carnivora";
     }
 
+    @Override
     public String getHabitat() {
-        return "Doméstico";
+        return "Domestico";
     }
 
+    @Override
     public String getNombreCientifico() {
         return "Canis lupus familiaris";
     }

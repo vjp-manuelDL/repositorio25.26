@@ -12,12 +12,13 @@ public class Test {
 
     // Esto es para probar cada animal directamente (sin polimorfismo)
     public static void pruebaDirecta() {
+        //creo un animal de cada para mostrarlo por pantalla luego
         Perro p = new Perro("Sanchez", 3, 12.5);
         Lobo l = new Lobo("Lobo Gris", 5, 40.0);
         Leon le = new Leon("Simba", 4, 190.0);
         Gato g = new Gato("Garfield", 2, 5.0);
 
-        System.out.println("=== PRUEBA DIRECTA ===");
+        System.out.println("PRUEBA DIRECTA");
         mostrarAnimal(p);
         mostrarAnimal(l);
         mostrarAnimal(le);
@@ -30,9 +31,9 @@ public class Test {
         System.out.println("Edad: " + a.edad + " años");
         System.out.println("Peso: " + a.peso + " kg");
         System.out.println("Sonido: " + a.getSonido());
-        System.out.println("Alimentación: " + a.getAlimentacion());
-        System.out.println("Hábitat: " + a.getHabitat());
-        System.out.println("Nombre científico: " + a.getNombreCientifico());
+        System.out.println("Alimentacion: " + a.getAlimentacion());
+        System.out.println("Habitat: " + a.getHabitat());
+        System.out.println("Nombre cientifico: " + a.getNombreCientifico());
         System.out.println();
     }
 
@@ -45,7 +46,7 @@ public class Test {
             new Gato("Silvestre", 3, 4.5)
         };
 
-        System.out.println("=== PRUEBA CON POLIMORFISMO ===");
+        System.out.println("PRUEBA CON POLIMORFISMO");
         for (Animal a : animales) {
             mostrarAnimal(a);
         }

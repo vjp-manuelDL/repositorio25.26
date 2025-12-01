@@ -9,6 +9,7 @@ package t5ej24;
  * @author Admin
  */
 public class Test {
+    //creo un nuevo prodructo de cada para mostrarlo por pantalla
     public static void mostrarProductos() {
         ProductoFresco fresco = new ProductoFresco("10/06/2025", "L-FR-001", "01/06/2025", "España");
         ProductoRefrigerado refrigerado = new ProductoRefrigerado("15/07/2025", "L-REF-102", "ES-ALIM-5543");

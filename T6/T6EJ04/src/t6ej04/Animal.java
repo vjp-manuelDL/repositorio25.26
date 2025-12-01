@@ -9,6 +9,7 @@ package t6ej04;
  * @author Admin
  */
 public abstract class Animal {
+
     protected String nombre;
     protected int edad;
     protected double peso;
@@ -21,7 +22,10 @@ public abstract class Animal {
 
     // Métodos abstractos (sin cuerpo, obligan a las subclases a implementarlos)
     public abstract String getSonido();
+
     public abstract String getAlimentacion();
+
     public abstract String getHabitat();
+
     public abstract String getNombreCientifico();
 }

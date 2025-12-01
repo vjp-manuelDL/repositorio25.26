@@ -9,22 +9,28 @@ package t6ej04;
  * @author Admin
  */
 public class Gato extends Felino {
+        //creo la especie gato dentro de su especie "felino"
+
     public Gato(String nombre, int edad, double peso) {
         super(nombre, edad, peso);
     }
 
+    @Override
     public String getSonido() {
         return "Maullido";
     }
 
+    @Override
     public String getAlimentacion() {
         return "Ratones";
     }
 
+    @Override
     public String getHabitat() {
-        return "Doméstico";
+        return "Domestico";
     }
 
+    @Override
     public String getNombreCientifico() {
         return "Felis silvestris catus";
     }

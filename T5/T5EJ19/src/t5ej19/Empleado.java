@@ -9,6 +9,7 @@ package t5ej19;
  * @author Admin
  */
 public class Empleado {
+    //creo la clase empleado
 
     private String nombre;
     private int horas;

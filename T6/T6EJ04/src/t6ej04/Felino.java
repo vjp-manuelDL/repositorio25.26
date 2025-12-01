@@ -9,6 +9,8 @@ package t6ej04;
  * @author Admin
  */
 public abstract class Felino extends Animal {
+        //creo la especie felino dentro de "animal"
+
     public Felino(String nombre, int edad, double peso) {
         super(nombre, edad, peso);
     }
