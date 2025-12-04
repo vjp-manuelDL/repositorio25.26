@@ -16,8 +16,10 @@ public class Alumno extends Persona {
         super(nombre);
         this.grupo = grupo;
     }
+    
 
     // Esto es para devolver el saludo del alumno
+    @Override
     public String saludar() {
         return "Hola, soy el alumno " + nombre + " y estoy en el grupo de " + grupo + ".";
     }

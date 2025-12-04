@@ -11,6 +11,13 @@ package t6ej02;
 public abstract class Persona {
     // Atributo común
     protected String nombre;
+    
+    public Persona(){
+        this.nombre = "";
+    }
+
+    
+    
 
     // Constructor: esto es para inicializar el nombre
     public Persona(String nombre) {
