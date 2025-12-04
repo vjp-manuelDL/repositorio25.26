@@ -17,8 +17,8 @@ public class T6EJ04 {
         // TODO code application logic here
 
         //Invocamos las clases
-        Test.pruebaDirecta();
-        Test.pruebaPolimorfismo();
+       Test prueba = new Test();
+       prueba.ejecutar();
     }
 
 }

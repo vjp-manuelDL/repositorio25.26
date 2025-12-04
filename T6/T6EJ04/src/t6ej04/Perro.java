@@ -8,30 +8,30 @@ package t6ej04;
  *
  * @author Admin
  */
+// Perro hereda de Animal → debe implementar el método abstracto 'hacerRuido()'
 public class Perro extends Canido {
-      //creo la especie perro dentro de su especie "canido"
+    // Constructor: le paso los datos a la cadena de herencia (hasta Animal)
     public Perro(String nombre, int edad, double peso) {
         super(nombre, edad, peso);
     }
 
     @Override
-    public String getSonido() {
-        return "Ladrido";
-    }
-
-    
-    @Override
-    public String getAlimentacion() {
-        return "Carnivora";
+    public void hacerSonido() {
+        System.out.println(nombre + " ladra: Guau!");
     }
 
     @Override
-    public String getHabitat() {
-        return "Domestico";
+    public void mostrarAlimentacion() {
+        System.out.println(nombre + " es carnivoro.");
     }
 
     @Override
-    public String getNombreCientifico() {
-        return "Canis lupus familiaris";
+    public void mostrarHabitat() {
+        System.out.println(nombre + " vive en habitat domestico.");
+    }
+
+    @Override
+    public void mostrarNombreCientifico() {
+        System.out.println("Nombre cientifico: Canis lupus familiaris");
     }
 }

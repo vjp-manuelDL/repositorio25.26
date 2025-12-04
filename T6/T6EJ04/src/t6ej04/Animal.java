@@ -9,10 +9,10 @@ package t6ej04;
  * @author Admin
  */
 public abstract class Animal {
-
+// atributos comunes y los métodos que TODOS los animales deben implementar.
     protected String nombre;
     protected int edad;
-    protected double peso;
+    protected double peso; // en kg
 
     public Animal(String nombre, int edad, double peso) {
         this.nombre = nombre;
@@ -20,12 +20,16 @@ public abstract class Animal {
         this.peso = peso;
     }
 
-    // Métodos abstractos (sin cuerpo, obligan a las subclases a implementarlos)
-    public abstract String getSonido();
+    // Métodos abstractos: obligan a las subclases a definir su comportamiento
+    public abstract void hacerSonido();
+    public abstract void mostrarAlimentacion();
+    public abstract void mostrarHabitat();
+    public abstract void mostrarNombreCientifico();
 
-    public abstract String getAlimentacion();
-
-    public abstract String getHabitat();
-
-    public abstract String getNombreCientifico();
+    // Método concreto para mostrar info común (opcional, pero útil)
+    public void mostrarInfo() {
+        System.out.println("Nombre: " + nombre + ", Edad: " + edad + " años, Peso: " + peso + " kg");
+    }
 }
+
+
