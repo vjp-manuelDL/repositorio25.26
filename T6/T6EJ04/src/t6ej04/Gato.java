@@ -9,29 +9,27 @@ package t6ej04;
  * @author Admin
  */
 public class Gato extends Felino {
-        //creo la especie gato dentro de su especie "felino"
-
     public Gato(String nombre, int edad, double peso) {
         super(nombre, edad, peso);
     }
 
     @Override
-    public String getSonido() {
-        return "Maullido";
+    public void hacerSonido() {
+        System.out.println(nombre + " maulla: Miau!");
     }
 
     @Override
-    public String getAlimentacion() {
-        return "Ratones";
+    public void mostrarAlimentacion() {
+        System.out.println(nombre + " se alimenta de ratones.");
     }
 
     @Override
-    public String getHabitat() {
-        return "Domestico";
+    public void mostrarHabitat() {
+        System.out.println(nombre + " vive en habitat domestico.");
     }
 
     @Override
-    public String getNombreCientifico() {
-        return "Felis silvestris catus";
+    public void mostrarNombreCientifico() {
+        System.out.println("Nombre cientifico: Felis silvestris catus");
     }
 }

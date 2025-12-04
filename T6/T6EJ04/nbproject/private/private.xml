@@ -2,6 +2,20 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group/>
+=======
+        <group>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/T6EJ04/src/t6ej04/Perro.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/T6EJ04/src/t6ej04/Test.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/T6EJ04/src/t6ej04/Gato.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/T6EJ04/src/t6ej04/Lobo.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/T6EJ04/src/t6ej04/Canido.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/T6EJ04/src/t6ej04/Felino.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/T6EJ04/src/t6ej04/Animal.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/T6EJ04/src/t6ej04/Leon.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/T6EJ04/src/t6ej04/T6EJ04.java</file>
+        </group>
+>>>>>>> 05e88e1e3f94478e892a0de7d06648705e1bc8a7
     </open-files>
 </project-private>

@@ -9,28 +9,27 @@ package t6ej04;
  * @author Admin
  */
 public class Leon extends Felino {
-      //creo la especie leon dentro de su especie "felino"
     public Leon(String nombre, int edad, double peso) {
         super(nombre, edad, peso);
     }
 
     @Override
-    public String getSonido() {
-        return "Rugido";
+    public void hacerSonido() {
+        System.out.println(nombre + " ruge: ROAR!");
     }
 
     @Override
-    public String getAlimentacion() {
-        return "Carnivora";
+    public void mostrarAlimentacion() {
+        System.out.println(nombre + " es carnivoro.");
     }
 
     @Override
-    public String getHabitat() {
-        return "Sabana";
+    public void mostrarHabitat() {
+        System.out.println(nombre + " vive en la sabana.");
     }
 
     @Override
-    public String getNombreCientifico() {
-        return "Panthera leo";
+    public void mostrarNombreCientifico() {
+        System.out.println("Nombre cientifico: Panthera leo");
     }
 }

@@ -9,28 +9,27 @@ package t6ej04;
  * @author Admin
  */
 public class Lobo extends Canido {
-      //creo la especie lobo dentro de su especie "canido"
     public Lobo(String nombre, int edad, double peso) {
         super(nombre, edad, peso);
     }
 
     @Override
-    public String getSonido() {
-        return "Aullido";
+    public void hacerSonido() {
+        System.out.println(nombre + " aulla: Auuu!");
     }
 
     @Override
-    public String getAlimentacion() {
-        return "Carnivora";
+    public void mostrarAlimentacion() {
+        System.out.println(nombre + " es carnivoro.");
     }
 
     @Override
-    public String getHabitat() {
-        return "Bosque";
+    public void mostrarHabitat() {
+        System.out.println(nombre + " vive en el bosque.");
     }
 
     @Override
-    public String getNombreCientifico() {
-        return "Canis lupus";
+    public void mostrarNombreCientifico() {
+        System.out.println("Nombre cientifico: Canis lupus");
     }
 }

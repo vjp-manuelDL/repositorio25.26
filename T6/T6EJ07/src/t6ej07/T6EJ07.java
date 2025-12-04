@@ -2,23 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package t6ej04;
+package t6ej07;
 
 /**
  *
  * @author Admin
  */
-public class T6EJ04 {
+public class T6EJ07 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-
-        //Invocamos las clases
-       Test prueba = new Test();
-       prueba.ejecutar();
+        //Invoco la clase test creando una nueva
+        Test test = new Test();
+        test.ejecutar();
     }
-
+    
 }
