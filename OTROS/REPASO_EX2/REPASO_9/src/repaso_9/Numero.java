@@ -9,7 +9,21 @@ package repaso_9;
  * @author alumno
  */
 public class Numero {
-    private int valor;
+    private double valor;
+    
+    public double getValor(){
+        return  valor;
+    }
+
+    public void setValor(double val) {
+        valor = val;
+    }
+    
+   
+    
+    
+    
+    
     
     
 }
