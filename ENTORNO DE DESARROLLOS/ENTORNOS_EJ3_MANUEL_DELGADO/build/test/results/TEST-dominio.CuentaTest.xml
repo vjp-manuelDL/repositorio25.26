@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Aqua81" name="dominio.CuentaTest" skipped="0" tests="10" time="0.065" timestamp="2026-01-31T18:01:57">
+<testsuite errors="0" failures="0" hostname="DAM1-12" name="dominio.CuentaTest" skipped="0" tests="10" time="0.15" timestamp="2026-02-04T16:47:52">
   <properties>
     <property name="javac.test.classpath" value="C:\Program Files\NetBeans-23\netbeans\platform\modules\ext\junit-4.13.2.jar:C:\Program Files\NetBeans-23\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:build/classes" />
     <property name="java.specification.version" value="21" />
@@ -13,22 +13,22 @@
     <property name="libs.eclipselink.javadoc" value="C:\Program Files\NetBeans-23\netbeans\java\modules\ext\docs\jakarta.persistence-2.2.3-doc.zip" />
     <property name="libs.jsp-compilation.src" value="" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner dominio.CuentaTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO\build\test\results\TEST-dominio.CuentaTest.xml crashfile=C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO\build\junitvmwatcher6726068606177869106.properties propsfile=C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO\build\junit12877567317128769197.properties" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner dominio.CuentaTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\test\results\TEST-dominio.CuentaTest.xml crashfile=C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\junitvmwatcher5927556808939034419.properties propsfile=C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\junit9507860955668082407.properties" />
     <property name="jdk.debug" value="release" />
     <property name="javadoc.use" value="true" />
     <property name="javadoc.notree" value="false" />
-    <property name="basedir" value="C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO" />
+    <property name="basedir" value="C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="libs.jsf20.classpath" value="C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
     <property name="netbeans.extbrowser.manual_chrome_plugin_install" value="yes" />
     <property name="libs.jakartaee-api-10.0.maven-pom" value="" />
     <property name="libs.spring-framework500.javadoc" value="" />
-    <property name="netbeans.default_userdir_root" value="C:\Users\Manue\AppData\Roaming\NetBeans" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\alumno\AppData\Roaming\NetBeans" />
     <property name="libs.jsp-compilation-syscp.src" value="" />
-    <property name="jdk.home" value="C:\Program Files\Java\jdk-21.0.10" />
-    <property name="java.runtime.version" value="21.0.10+8-LTS-217" />
+    <property name="jdk.home" value="C:\Program Files\Java\jdk-21" />
+    <property name="java.runtime.version" value="21.0.5+9-LTS-239" />
     <property name="libs.eclipselink.maven-pom" value="" />
     <property name="libs.metro.maven-pom" value="" />
     <property name="libs.JAXB-ENDORSED.javadoc" value="" />
@@ -41,13 +41,13 @@
     <property name="libs.junit_5.javadoc" value="C:\Program Files\NetBeans-23\netbeans\platform\docs\junit-jupiter-api-5.10.3-javadoc.jar;C:\Program Files\NetBeans-23\netbeans\platform\docs\junit-jupiter-params-5.10.3-javadoc.jar;C:\Program Files\NetBeans-23\netbeans\platform\docs\junit-jupiter-engine-5.10.3-javadoc.jar" />
     <property name="libs.jakartaee-api-11.0.maven-pom" value="" />
     <property name="dist.archive.excludes" value="" />
-    <property name="java.io.tmpdir" value="C:\Users\Manue\AppData\Local\Temp\" />
-    <property name="java.version" value="21.0.10" />
+    <property name="java.io.tmpdir" value="C:\Users\alumno\AppData\Local\Temp\" />
+    <property name="java.version" value="21.0.5" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="libs.jakartaee-api-8.0.javadoc" value="C:\Program Files\NetBeans-23\netbeans\enterprise\docs\jakartaee8-doc-api.jar" />
     <property name="native.encoding" value="Cp1252" />
     <property name="libs.hamcrest.src" value="" />
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Manue\AppData\Local\Microsoft\WindowsApps;C:\Users\Manue\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Manue\AppData\Local\GitHubDesktop\bin;." />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\Puppet Labs\Puppet\bin;C:\Program Files\Git\cmd;C:\Users\alumno\AppData\Local\Microsoft\WindowsApps;C:\Users\alumno\AppData\Local\GitHubDesktop\bin;C:\Users\alumno\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alumno\AppData\Local\spicetify;." />
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="libs.groovy-all.src" value="" />
     <property name="libs.testng.javadoc" value="C:\Program Files\NetBeans-23\netbeans\platform\docs\testng-6.13.1-javadoc.jar" />
@@ -73,7 +73,7 @@
     <property name="javadoc.noindex" value="false" />
     <property name="javadoc.private" value="false" />
     <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
-    <property name="user.home" value="C:\Users\Manue" />
+    <property name="user.home" value="C:\Users\alumno" />
     <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
     <property name="have.sources" value="true" />
     <property name="annotation.processing.processors.list" value="" />
@@ -113,7 +113,7 @@
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans-23\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="ant.file.type.ENTORNOS_EJ3_MANUEL_DELGADO" value="file" />
     <property name="libs.javaee-endorsed-api-6.0.src" value="" />
-    <property name="ant.file.ENTORNOS_EJ3_MANUEL_DELGADO" value="C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO\build.xml" />
+    <property name="ant.file.ENTORNOS_EJ3_MANUEL_DELGADO" value="C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build.xml" />
     <property name="libs.javaee-endorsed-api-7.0.classpath" value="C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\javaee7-endorsed\javax.annotation-api.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\javaee7-endorsed\javax.xml.soap-api.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\javaee7-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\javaee7-endorsed\jaxws-api.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\javaee7-endorsed\jsr181-api.jar" />
     <property name="libs.primefaces.maven-pom" value="" />
     <property name="org.netbeans.io.suspend" value="0" />
@@ -135,7 +135,7 @@
     <property name="libs.javaee-api-7.0.maven-pom" value="" />
     <property name="libs.absolutelayout.javadoc" value="" />
     <property name="module.build.classes.dir" value="build/classes" />
-    <property name="ant.file.ENTORNOS_EJ3_MANUEL_DELGADO-impl" value="C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO\nbproject\build-impl.xml" />
+    <property name="ant.file.ENTORNOS_EJ3_MANUEL_DELGADO-impl" value="C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\nbproject\build-impl.xml" />
     <property name="annotation.processing.processor.options" value="" />
     <property name="libs.jaxb.maven-pom" value="" />
     <property name="libs.javaee-api-6.0.maven-pom" value="" />
@@ -167,7 +167,7 @@
     <property name="libs.jakartaee-api-9.0.maven-pom" value="" />
     <property name="libs.jpa20-persistence.src" value="" />
     <property name="libs.restapi.javadoc" value="" />
-    <property name="javac.test.sourcepath" value="C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO\build\empty" />
+    <property name="javac.test.sourcepath" value="C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\empty" />
     <property name="includes" value="**" />
     <property name="libs.hamcrest.classpath" value="C:\Program Files\NetBeans-23\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="javadoc.splitindex" value="true" />
@@ -176,7 +176,7 @@
     <property name="javac.processormodulepath" value="" />
     <property name="javadoc.encoding" value="UTF-8" />
     <property name="libs.jakartaee-api-11.0.src" value="" />
-    <property name="netbeans.hash.code" value="unique=NB_EXTIDE_JAVA_PHP_WEBCOMMON_WEBEE02de1b1c2-af20-4f1d-ba0c-4b5b98f1166f_f8b0b312-c2ec-487b-95a6-333904d2d984" />
+    <property name="netbeans.hash.code" value="unique=NB_EXTIDE_JAVA_PHP_WEBCOMMON_WEBEE0e6817b3b-ad1a-4378-98de-a073433391e0_54e6a06a-8c8d-4272-9cfd-edbe086ba8cf" />
     <property name="libs.jsp-compilation-syscp.maven-pom" value="" />
     <property name="libs.jstl.src" value="" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
@@ -214,9 +214,9 @@
     <property name="libs.CopyLibs.src" value="" />
     <property name="javac.source" value="21" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
-    <property name="java.version.date" value="2026-01-20" />
-    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.10" />
-    <property name="work.dir" value="C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO" />
+    <property name="java.version.date" value="2024-10-15" />
+    <property name="java.home" value="C:\Program Files\Java\jdk-21" />
+    <property name="work.dir" value="C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO" />
     <property name="javac.test.compilerargs" value="" />
     <property name="jna.boot.library.name" value="jnidispatch-nb" />
     <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\NetBeans-23\netbeans\ide\modules\ext\postgresql-42.5.4.jar" />
@@ -237,7 +237,7 @@
     <property name="libs.absolutelayout.classpath" value="C:\Program Files\NetBeans-23\netbeans\java\modules\ext\AbsoluteLayout.jar" />
     <property name="org.openide.awt.ActionReference.completion" value="org.netbeans.modules.apisupport.project.layers.PathCompletions" />
     <property name="do.archive" value="true" />
-    <property name="built-jar.properties" value="C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO\build\built-jar.properties" />
+    <property name="built-jar.properties" value="C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\built-jar.properties" />
     <property name="nb.native.filechooser" value="false" />
     <property name="libs.testng.src" value="" />
     <property name="libs.javaee-web-api-8.0.classpath" value="C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\javaee-web-api-8.0.jar" />
@@ -257,7 +257,7 @@
     <property name="endorsed.classpath.cmd.line.arg" value="" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="build.sysclasspath" value="ignore" />
-    <property name="os.name" value="Windows 11" />
+    <property name="os.name" value="Windows 10" />
     <property name="libs.CopyLibs.maven-pom" value="" />
     <property name="libs.jakartaee-api-8.0.maven-pom" value="" />
     <property name="jdkBug6558476" value="false" />
@@ -275,7 +275,7 @@
     <property name="libs.graaljs.src" value="" />
     <property name="run.jvmargs" value="" />
     <property name="libs.primefaces.src" value="" />
-    <property name="ant.file" value="C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO\build.xml" />
+    <property name="ant.file" value="C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build.xml" />
     <property name="stdout.encoding" value="Cp1252" />
     <property name="path.separator" value=";" />
     <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files\NetBeans-23\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
@@ -307,9 +307,9 @@
     <property name="libs.jsf20.javadoc" value="C:\Program Files\NetBeans-23\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
     <property name="netbeans.autoupdate.version" value="1.23" />
-    <property name="empty.dir" value="C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO\build\empty" />
+    <property name="empty.dir" value="C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\empty" />
     <property name="libs.jakartaee-api-10.0.classpath" value="C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\jakarta.jakartaee-api-10.0.0.jar" />
-    <property name="netbeans.user" value="C:\Users\Manue\AppData\Roaming\NetBeans\23" />
+    <property name="netbeans.user" value="C:\Users\alumno\AppData\Roaming\NetBeans\23" />
     <property name="file.separator" value="\" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="javadoc.additionalparam" value="" />
@@ -320,7 +320,7 @@
     <property name="libs.testng.classpath" value="C:\Program Files\NetBeans-23\netbeans\platform\modules\ext\testng-6.14.3.jar;C:\Program Files\NetBeans-23\netbeans\platform\modules\ext\jcommander-1.78.jar" />
     <property name="ant.file.type.ENTORNOS_EJ3_MANUEL_DELGADO-impl" value="file" />
     <property name="libs.jsp-compiler.src" value="" />
-    <property name="user.name" value="Manue" />
+    <property name="user.name" value="alumno" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="javadoc.windowtitle" value="" />
     <property name="nb.junit.single" value="false" />
@@ -345,11 +345,11 @@
     <property name="java.failonerror" value="true" />
     <property name="javac.modulepath" value="" />
     <property name="libs.spring-framework500.src" value="" />
-    <property name="user.properties.file" value="C:\Users\Manue\AppData\Roaming\NetBeans\23\build.properties" />
+    <property name="user.properties.file" value="C:\Users\alumno\AppData\Roaming\NetBeans\23\build.properties" />
     <property name="libs.javaee-api-6.0.src" value="" />
     <property name="netbeans.autoupdate.country" value="ES" />
     <property name="nb.wait.for.caches" value="true" />
-    <property name="java.class.path" value="C:\Program Files\NetBeans-23\netbeans\platform\modules\ext\junit-4.13.2.jar;C:\Program Files\NetBeans-23\netbeans\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO\build\classes;C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO\build\test\classes;C:\Program Files\NetBeans-23\netbeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans-23\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-23\netbeans\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans-23\netbeans\extide\ant\lib\ant-junit4.jar" />
+    <property name="java.class.path" value="C:\Program Files\NetBeans-23\netbeans\platform\modules\ext\junit-4.13.2.jar;C:\Program Files\NetBeans-23\netbeans\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\classes;C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\test\classes;C:\Program Files\NetBeans-23\netbeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans-23\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-23\netbeans\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans-23\netbeans\extide\ant\lib\ant-junit4.jar" />
     <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="ap.supported.internal" value="true" />
@@ -389,18 +389,19 @@
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="ant.project.invoked-targets" value="test" />
     <property name="libs.jstl.classpath" value="C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\jstl-api.jar" />
+    <property name="netbeans.automatic.build" value="true" />
     <property name="ap.cmd.line.internal" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
     <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
-    <property name="user.dir" value="C:\Users\Manue\Documents\NetBeansProjects\ENTORNOS_EJ3_MANUEL_DELGADO" />
-    <property name="platform.java" value="C:\Program Files\Java\jdk-21.0.10/bin/java" />
+    <property name="user.dir" value="C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO" />
+    <property name="platform.java" value="C:\Program Files\Java\jdk-21/bin/java" />
     <property name="application.args" value="" />
     <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
     <property name="libs.jakartaee-web-api-8.0.maven-pom" value="" />
     <property name="libs.eclipselink.src" value="" />
-    <property name="java.vm.version" value="21.0.10+8-LTS-217" />
+    <property name="java.vm.version" value="21.0.5+9-LTS-239" />
     <property name="libs.metro.javadoc" value="C:\Program Files\NetBeans-23\netbeans\enterprise\docs\webservices-api-javadoc.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\docs\webservices-extra-javadoc.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\docs\webservices-extra-api-javadoc.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\docs\webservices-rt-javadoc.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\docs\webservices-tools-javadoc.jar" />
     <property name="libs.jakartaee-web-api-9.0.src" value="" />
     <property name="libs.jakartaee-web-api-10.0.classpath" value="C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\jakarta.jakartaee-web-api-10.0.0.jar" />
@@ -412,15 +413,15 @@
     <property name="libs.jsp-compiler.classpath" value="C:\Program Files\NetBeans-23\netbeans\enterprise\ant\extra\jspcompile.jar" />
     <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
   </properties>
-  <testcase classname="dominio.CuentaTest" name="testRetirarTodo" time="0.002" />
+  <testcase classname="dominio.CuentaTest" name="testRetirarTodo" time="0.005" />
   <testcase classname="dominio.CuentaTest" name="testConstructorSinCantidad" time="0.0" />
-  <testcase classname="dominio.CuentaTest" name="testIngresarNegativoIgnorado" time="0.0" />
+  <testcase classname="dominio.CuentaTest" name="testIngresarNegativoIgnorado" time="0.001" />
   <testcase classname="dominio.CuentaTest" name="testIngresarPositivo" time="0.0" />
-  <testcase classname="dominio.CuentaTest" name="testToString" time="0.005" />
-  <testcase classname="dominio.CuentaTest" name="testRetirarExceso" time="0.0" />
-  <testcase classname="dominio.CuentaTest" name="testRetirarNormal" time="0.0" />
-  <testcase classname="dominio.CuentaTest" name="testRetirarNegativoIgnorado" time="0.0" />
-  <testcase classname="dominio.CuentaTest" name="testConstructorConCantidadPositiva" time="0.0" />
+  <testcase classname="dominio.CuentaTest" name="testToString" time="0.01" />
+  <testcase classname="dominio.CuentaTest" name="testRetirarExceso" time="0.001" />
+  <testcase classname="dominio.CuentaTest" name="testRetirarNormal" time="0.001" />
+  <testcase classname="dominio.CuentaTest" name="testRetirarNegativoIgnorado" time="0.001" />
+  <testcase classname="dominio.CuentaTest" name="testConstructorConCantidadPositiva" time="0.001" />
   <testcase classname="dominio.CuentaTest" name="testConstructorConCantidadNegativa" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
