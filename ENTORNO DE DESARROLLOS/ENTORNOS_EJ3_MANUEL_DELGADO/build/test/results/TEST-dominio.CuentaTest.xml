@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="DAM1-12" name="dominio.CuentaTest" skipped="0" tests="10" time="0.15" timestamp="2026-02-04T16:47:52">
+<testsuite errors="0" failures="0" hostname="DAM1-12" name="dominio.CuentaTest" skipped="0" tests="10" time="0.125" timestamp="2026-02-06T19:13:00">
   <properties>
     <property name="javac.test.classpath" value="C:\Program Files\NetBeans-23\netbeans\platform\modules\ext\junit-4.13.2.jar:C:\Program Files\NetBeans-23\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:build/classes" />
     <property name="java.specification.version" value="21" />
@@ -14,7 +14,7 @@
     <property name="libs.jsp-compilation.src" value="" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner dominio.CuentaTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\test\results\TEST-dominio.CuentaTest.xml crashfile=C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\junitvmwatcher5927556808939034419.properties propsfile=C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\junit9507860955668082407.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner dominio.CuentaTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\test\results\TEST-dominio.CuentaTest.xml crashfile=C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\junitvmwatcher12950460472215198619.properties propsfile=C:\Users\alumno\Documents\GitHub\repositorio25.26\ENTORNO DE DESARROLLOS\ENTORNOS_EJ3_MANUEL_DELGADO\build\junit17700177616589802598.properties" />
     <property name="jdk.debug" value="release" />
     <property name="javadoc.use" value="true" />
     <property name="javadoc.notree" value="false" />
@@ -47,7 +47,7 @@
     <property name="libs.jakartaee-api-8.0.javadoc" value="C:\Program Files\NetBeans-23\netbeans\enterprise\docs\jakartaee8-doc-api.jar" />
     <property name="native.encoding" value="Cp1252" />
     <property name="libs.hamcrest.src" value="" />
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\Puppet Labs\Puppet\bin;C:\Program Files\Git\cmd;C:\Users\alumno\AppData\Local\Microsoft\WindowsApps;C:\Users\alumno\AppData\Local\GitHubDesktop\bin;C:\Users\alumno\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alumno\AppData\Local\spicetify;." />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\Puppet Labs\Puppet\bin;C:\Program Files\Git\cmd;C:\Program Files\Autofirma\Autofirma;C:\Users\alumno\AppData\Local\Microsoft\WindowsApps;C:\Users\alumno\AppData\Local\GitHubDesktop\bin;C:\Users\alumno\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alumno\AppData\Local\spicetify;." />
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="libs.groovy-all.src" value="" />
     <property name="libs.testng.javadoc" value="C:\Program Files\NetBeans-23\netbeans\platform\docs\testng-6.13.1-javadoc.jar" />
@@ -389,7 +389,6 @@
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="ant.project.invoked-targets" value="test" />
     <property name="libs.jstl.classpath" value="C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\jstl-api.jar" />
-    <property name="netbeans.automatic.build" value="true" />
     <property name="ap.cmd.line.internal" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
@@ -414,15 +413,15 @@
     <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-23\netbeans\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
   </properties>
   <testcase classname="dominio.CuentaTest" name="testRetirarTodo" time="0.005" />
-  <testcase classname="dominio.CuentaTest" name="testConstructorSinCantidad" time="0.0" />
+  <testcase classname="dominio.CuentaTest" name="testConstructorSinCantidad" time="0.001" />
   <testcase classname="dominio.CuentaTest" name="testIngresarNegativoIgnorado" time="0.001" />
-  <testcase classname="dominio.CuentaTest" name="testIngresarPositivo" time="0.0" />
+  <testcase classname="dominio.CuentaTest" name="testIngresarPositivo" time="0.001" />
   <testcase classname="dominio.CuentaTest" name="testToString" time="0.01" />
-  <testcase classname="dominio.CuentaTest" name="testRetirarExceso" time="0.001" />
-  <testcase classname="dominio.CuentaTest" name="testRetirarNormal" time="0.001" />
-  <testcase classname="dominio.CuentaTest" name="testRetirarNegativoIgnorado" time="0.001" />
+  <testcase classname="dominio.CuentaTest" name="testRetirarExceso" time="0.0" />
+  <testcase classname="dominio.CuentaTest" name="testRetirarNormal" time="0.0" />
+  <testcase classname="dominio.CuentaTest" name="testRetirarNegativoIgnorado" time="0.0" />
   <testcase classname="dominio.CuentaTest" name="testConstructorConCantidadPositiva" time="0.001" />
-  <testcase classname="dominio.CuentaTest" name="testConstructorConCantidadNegativa" time="0.0" />
+  <testcase classname="dominio.CuentaTest" name="testConstructorConCantidadNegativa" time="0.001" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
